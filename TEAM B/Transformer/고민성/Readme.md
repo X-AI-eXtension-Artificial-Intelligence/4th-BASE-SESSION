@@ -25,4 +25,4 @@ dropout: 0.3
 
 input : Our team is the best
 
-output : 그 사람 은 <unk>
+output : "그 사람 은 <unk>"
