@@ -13,6 +13,14 @@ optim : AdamW
 dropout: 0.2  
 warm_step : 3500
 
+## 코드 실행 순서
+
+1. python build_pickle2.py : pickle file 생성
+2. python main2.py : Training
+3. python main2.py --mode test : Test
+4. python predict2.py --input "{sentence}" : Inferece
+
+
 ## Evaluation  
 Test Loss : 4.070
 
