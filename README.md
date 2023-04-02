@@ -1,4 +1,4 @@
-# XAI-2th-Deep-Learning-Papers
+# XAI-4th-Deep-Learning-Papers
 [ 인공지능 학회 ] CV, NLP, AE, GAN, RecSys, Speech 등 다양한 분야의 논문 리뷰 및 구현  
 
 <br/>
@@ -37,14 +37,14 @@
 
 | 주차 | 분류/분할 | 탐지/생성 | 자연어/음성 |
 | --- | --- | --- | --- |
-| 1주 | Classification(1) | Object Detection(1) | NLP(1) |
-| 2주 | Classification(2) | Object Detection(2) | NLP(2) |
-| 3주 | Classification(3) | Object Detection(3) | NLP(3) |
-| 4주 | Classification(4) | Object Detection(4) | NLP(4) |
-| 5주 | Image Segmentation(1) | Auto Encoder(1) | Speech(1) |
-| 6주 | Image Segmentation(2) | GAN(1) | Speech(2) |
-| 7주 | Image Segmentation(3) | GAN(2) | Speech(3) |
-| 8주 | Image Segmentation(4) | GAN(3) | Speech(4) |
+| 1주 | Network(1) | Object Detection(1) | NLP(1) |
+| 2주 | Network(2) | Object Detection(2) | NLP(2) |
+| 3주 | Network(3) | Object Detection(3) | NLP(3) |
+| 4주 | Image Segmentation(1) | Object Detection(4) | NLP(4) |
+| 5주 | Image Segmentation(2) | Auto Encoder(1) | NLP(5) |
+| 6주 | Image Segmentation(3) | Auto Encoder(2) | NLP(6) |
+| 7주 | Image Segmentation(4) | GAN(1) | NLP(7) |
+| 8주 | GAN(2) | GAN(3) | GAN(4) |
 
 <br/>
 
@@ -52,12 +52,12 @@
 
 | 주차 | 분류/분할 | 탐지/생성 | 자연어/음성 |
 | --- | --- | --- | --- |
-| 1주 | Xception | SPPNet | Seq2Seq |
-| 2주 | MobileNet | Faster R-CNN | Transformer |
-| 3주 | SENet | YOLO | BERT |
-| 4주 | EfficientNet | RetinaNet | GPT |
-| 5주 | U-Net | VAE | Digital Signal Processing |
-| 6주 | SegNet | CycleGAN | Speech Recognition |
-| 7주 | Mask R-CNN | StyleGAN | Speech Synthesis |
-| 8주 | DeepLAB | StarGAN | Speech Synthesis |
+| 1주 | InceptionV2/3 | SPPNet | Seq2Seq |
+| 2주 | DCN | Faster R-CNN | Transformer |
+| 3주 | EfficientNet | YOLO | ELMO |
+| 4주 | U-Net | RetinaNet | GPT-1 |
+| 5주 | SegNet | AE | Digital Signal Bert |
+| 6주 | DeepLAB | VAE | RoBERTa |
+| 7주 | Mask-RCNN | GAN | BART |
+| 8주 | CycleGAN | StyleGAN | StarGAN |
 
