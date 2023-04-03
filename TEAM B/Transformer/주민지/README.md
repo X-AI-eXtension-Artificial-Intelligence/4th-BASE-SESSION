@@ -15,4 +15,5 @@ loss : 5점 중반 (loss를 정확히 기록해두지 않고 터미널창을 종
 **INFERENCE**
 >>input : Our team is the best
 >>output : "그 녀는 ... "
+
 ![image](https://user-images.githubusercontent.com/86222332/229524601-2190cf5f-deb1-4d3a-902a-9fad8a1c5450.png)
