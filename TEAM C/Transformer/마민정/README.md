@@ -1,34 +1,50 @@
-## 참고 코드
-https://github.com/Huffon/pytorch-transformer-kor-eng
+## Kor-Eng to Eng-Kor
 
-- {code}.py : 기존 Kor-Eng 변환 코드  
-- {code}2.py : 수정한 Eng-Kor 변환 코드
-
-<br/>
-
-## Eng-Kor 변경 사항
-- epoch : 200  
-- random_seed : 2020  
-- batch_size : 164  
-- optim : Adam  
-- dropout: 0.2  
-- warm_step : 3500  
+    epoch : 200  
+    random_seed : 2020  
+    batch_size : 164  
+    optim : Adam  
+    dropout: 0.2  
+    warm_step : 3500  
 
 <br/>
 
-## 코드 실행 순서
-- python build_pickle2.py : pickle file 생성  
-- python main2.py : Training  
-- python main2.py --mode test : Test  
-- python predict2.py --input "{sentence}" : Inferece  
+## Code Execution
+```
+# 한국어 tokenization 후 pickle file 생성
+python build_pickle.py     
+```
+```
+# Training 결과 확인
+python main.py      
+```
+```
+# Test Loss 확인
+python main.py --mode test    
+```
+```
+# Inference 결과 확인
+python predict.py --input "{sentence}"    # Inferece 결과 확인
+```
 
 <br/>
 
 ## Evaluation  
-- Test Loss : 4.070  
+- Test Loss : 4.981  
 
 <br/>
 
 ## Inference Example  
 - Input : "I love you"  
-- output : "당신 은 진심으로 사랑해요"  
+- output : "마지막으로 는 그들의 삶을 <unk>"  
+
+<br/>
+
+![result](https://user-images.githubusercontent.com/75362328/229744136-523ca181-dff9-438e-989c-34a8d5496bb1.png)
+
+<br/>
+
+## Reference
+- https://github.com/Huffon/pytorch-transformer-kor-eng
+
+
