@@ -1,5 +1,8 @@
 ## parameter ##
 
+
+
+
     "model": "transformer",
     "save_model": "model.pt",
 
@@ -19,6 +22,9 @@
     "n_head": 8,
     "max_len": 64,
     "dropout": 0.2
+
+
+
 
 ## test loss ##
 
