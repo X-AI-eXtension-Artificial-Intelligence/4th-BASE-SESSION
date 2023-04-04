@@ -1,5 +1,6 @@
 ## parameter ##
-  "model": "transformer",
+
+    "model": "transformer",
     "save_model": "model.pt",
 
     "mode": "train",
