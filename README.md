@@ -6,7 +6,7 @@
 ## 목적 및 목표
 
 - **다양한 Task의 논문 리뷰 및 구현**
-    - CV, NLP, AE, GAN, SR 등 다양한 분야의 Base 논문을 접해보고 본인이 원하는 분야 선정
+    - CV, NLP, AE, GAN 등 다양한 분야의 Base 논문을 접해보고 본인이 원하는 분야 선정
     - 해당 분야의 SOTA 논문 리뷰를 통해 더 깊게 탐구
     - 최종적으로 하나의 프로젝트를 수행할 수 있는 능력 도모
     
@@ -28,14 +28,14 @@
 ## 세션 별 커리큘럼
 - Base Session에서는 BASE 논문을 읽고 관심 있는 분야 선정
 - Advanced Session에서는 SOTA 모델 리뷰 및 단계별 구현
-- Conference Session에서는 하나의 프로젝트를 스스로 수행할 수 있는 능력 도모
+- Project Session에서는 하나의 프로젝트를 스스로 수행할 수 있는 능력 도모
 - Writing Session을 통해 궁극적으로 본인만의 논문을 작성
     
 <br/>
 
 ## BASE 세션 주차 별 커리큘럼
 
-| 주차 | 분류/분할 | 탐지/생성 | 자연어/음성 |
+| 주차 | 분류/분할 | 탐지/생성 | 자연어 |
 | --- | --- | --- | --- |
 | 1주 | Network(1) | Object Detection(1) | NLP(1) |
 | 2주 | Network(2) | Object Detection(2) | NLP(2) |
@@ -50,9 +50,9 @@
 
 ## BASE 세션 주차 별 상세 커리큘럼
 
-| 주차 | 분류/분할 | 탐지/생성 | 자연어/음성 |
+| 주차 | 분류/분할 | 탐지/생성 | 자연어 |
 | --- | --- | --- | --- |
-| 1주 | InceptionV2/3 | SPPNet | Seq2Seq |
+| 1주 | InceptionV3 | SPPNet | Seq2Seq |
 | 2주 | DCN | Faster R-CNN | Transformer |
 | 3주 | EfficientNet | YOLO | ELMO |
 | 4주 | U-Net | RetinaNet | GPT-1 |
