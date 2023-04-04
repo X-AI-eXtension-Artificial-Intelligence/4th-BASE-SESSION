@@ -1,0 +1,21 @@
+{
+    "model": "transformer",
+    "save_model": "model.pt",
+
+    "mode": "train",
+    "optim": "Adam",
+
+    "random_seed": 32,
+    "clip": 1,
+
+    "batch_size": 512,
+    "num_epoch": 10,
+    "warm_steps": 400,
+
+    "hidden_dim": 128,
+    "feed_forward_dim": 512,
+    "n_layer": 3,
+    "n_head": 4,
+    "max_len": 64,
+    "dropout": 0.2
+}
