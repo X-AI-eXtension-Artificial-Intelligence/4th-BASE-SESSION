@@ -32,6 +32,6 @@
 - validation = 4.0
 - test = 4.116
 
-입력 - I want to got home.  
+입력 - I want to go home.  
 출력 - 우리 는 일찍 출발 하기 위해 집 으로 갔어
 
