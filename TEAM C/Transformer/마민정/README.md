@@ -24,7 +24,7 @@ python main.py --mode test
 ```
 ```
 # Inference 결과 확인
-python predict.py --input "{sentence}"    # Inferece 결과 확인
+python predict.py --input "{sentence}" 
 ```
 
 <br/>
