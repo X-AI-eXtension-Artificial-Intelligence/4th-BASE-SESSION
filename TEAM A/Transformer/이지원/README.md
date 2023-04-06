@@ -9,5 +9,6 @@
 
 ### Inference
 ![great_inference](./inference_result.png)
-eng> 'i want to play baseball'
+</br>
+eng> 'i want to play baseball' </br>
 kor> '야구 를 하고 싶어 요'
