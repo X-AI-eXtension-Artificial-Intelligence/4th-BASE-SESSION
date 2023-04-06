@@ -8,7 +8,7 @@
 - test loss: 4.08
 
 ### Inference
-![great_inference](./inference_result.png)
+<img src="./inference_result.png", height="100px", width="100px">
 </br>
 eng> 'i want to play baseball' </br>
 kor> '야구 를 하고 싶어 요'
