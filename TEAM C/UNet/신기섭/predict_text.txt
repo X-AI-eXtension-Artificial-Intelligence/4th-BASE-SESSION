@@ -1,0 +1,7 @@
+python predict_kaggle.py -i data_kaggle/test/img/16.png -o Output/output16_1.npy --model checkpoints/checkpoint_epoch10.pth --classes 15
+python predict_kaggle.py -i data_kaggle/test/img/17.png -o Output/output17_1.npy --model checkpoints/checkpoint_epoch10.pth --classes 15
+python predict_kaggle.py -i data_kaggle/test/img/18.png -o Output/output18_1.npy --model checkpoints/checkpoint_epoch10.pth --classes 15
+python predict_kaggle.py -i data_kaggle/test/img/19.png -o Output/output19_1.npy --model checkpoints/checkpoint_epoch10.pth --classes 15
+python predict_kaggle.py -i data_kaggle/test/img/20.png -o Output/output20_1.npy --model checkpoints/checkpoint_epoch10.pth --classes 15
+
+python Generation_sub.py
